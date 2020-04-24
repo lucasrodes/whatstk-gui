@@ -1,17 +1,22 @@
 # Graphical User Interface for whatstk
 **[versió en català](cat.md)** | **[versión en español](esp.md)**
 
-[Download whatsTK](dist/), to analyse your WhatsApp group chat.
+[Download whatsTK](dist/WhatsTK.zip), to analyse your WhatsApp group chat. **Currently it is only available for Mac OS**
 
-![]()
+![](assets/app-screenshot.png)
 
+### How to use
+1. UnZip the downloaded file.
+2. Start the program (double click on the file)
+3. Once the Software is loadewd (might take few seconds), click on _Load chat file_ to select file.
+4. Write down the header format of your whatsapp chat file. For instance `%d.%m.%y, %H:%M - %name:` (check more on
+   `headers` section below).
+5. Click on `Run`.
 
-## 
-## Create App
-Given a script name `app.py `
+Below an example of the results
 
-```
-pyinstaller --onefile --windowed --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' --name test --icon='favicon2.ico' test.py
-```
+![](assets/stats.png)
 
-pyinstaller --onefile --windowed app.spec
+---
+
+*This library uses [whatstk](https://lcsrg.me/whatstk) python library.*

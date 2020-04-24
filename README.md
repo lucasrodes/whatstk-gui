@@ -1,4 +1,7 @@
 # Graphical User Interface for whatstk
+[![](https://img.shields.io/badge/download_WhatsTK-brightgreen.svg)](dist/WhatsTK.zip)
+
+
 **[versió en català](cat.md)** | **[versión en español](esp.md)**
 
 [Download whatsTK](dist/WhatsTK.zip), to analyse your WhatsApp group chat. **Currently it is only available for Mac OS**

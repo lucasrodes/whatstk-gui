@@ -26,7 +26,6 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 <img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
 rgba(0,0,0,0.22);">
 </p>
-<br>
 
 4. Write down the header format of your whatsapp chat file. For instance `%d.%m.%y, %H:%M - %name:` (check more on
    `headers` section below).

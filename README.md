@@ -4,8 +4,7 @@
 Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for mac OS.**
 
 <!-- <p style="text-align: center;"> -->
-<div align="center">
-<table class="tg">
+<table class="tg" align="center">
     <tr>
         <th class="tg-fymr" colspan="2">Downloads</th>
     </tr>
@@ -16,7 +15,19 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
     </td>
     </tr>
 </table>
-</div>
+
+
+<table class="tg" style="display: flex; justify-content: center;">
+    <tr>
+        <th class="tg-fymr" colspan="2">Downloads</th>
+    </tr>
+    <tr>
+        <td class="tg-0pky">macOS (Catalina)</td>
+    <td class="tg-0pky"><a href="dist/WhatsTK.zip"><img src="https://img.shields.io/badge/download_zip_⬇-brightgreen.svg"
+    alt="WhatsTK user interface" width="100%"></a>
+    </td>
+    </tr>
+</table>
 
 
 
@@ -120,6 +131,9 @@ rgba(0,0,0,0.22);">
 
     Check python library [whatstk](https://lcsrg.me/whatstk).
 
+* **Not resolved? Ask your question!**
+    
+    You can ask [here](https://github.com/lucasrodes/whatstk-gui/issues) for your issue.
 ---
 
 *This library uses [whatstk](https://lcsrg.me/whatstk) python library.*

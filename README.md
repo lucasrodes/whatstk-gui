@@ -16,7 +16,6 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
     </td>
     </tr>
 </table>
-</div>
 </center>
 <!-- </p> -->
 

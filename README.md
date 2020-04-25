@@ -21,24 +21,24 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 
 ## How to use
 
+1. UnZip the downloaded file.
+2. Start the program (double click on the file)
+3. Once the Software is loaded (might take few seconds), click on _Load chat file_ to select file.
+
 <p style="text-align: center;">
 <img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
 rgba(0,0,0,0.22);">
 </p>
 <br>
 
-
-
-1. UnZip the downloaded file.
-2. Start the program (double click on the file)
-3. Once the Software is loadewd (might take few seconds), click on _Load chat file_ to select file.
 4. Write down the header format of your whatsapp chat file. For instance `%d.%m.%y, %H:%M - %name:` (check more on
    `headers` section below).
 5. Click on `Run`.
 
+<br>
+
 Below an example of the results
 
-<br>
 <br>
 <p style="text-align: center;">
 <img src="assets/stats.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px

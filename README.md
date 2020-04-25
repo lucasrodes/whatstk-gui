@@ -13,19 +13,19 @@ rgba(0,0,0,0.22);">
 
 ## Downloads
 
-<view style="display: flex, justify-content: center">
+<p style="text-align: center;">
     <table class="tg">
     <tr>
         <th class="tg-fymr" colspan="2">Downloads</th>
     </tr>
     <tr>
         <td class="tg-0pky">macOS (Catalina)</td>
-    <td class="tg-0pky"><a href="dist/WhatsTK.zip"><img src="https://img.shields.io/badge/download_zip-brightgreen.svg"
+    <td class="tg-0pky"><a href="dist/WhatsTK.zip"><img src="https://img.shields.io/badge/download_zip_⬇-brightgreen.svg"
     alt="WhatsTK user interface" width="100%"></a>
     </td>
     </tr>
     </table>
-</view>
+</p>
 
 ## How to use
 1. UnZip the downloaded file.

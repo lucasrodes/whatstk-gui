@@ -50,7 +50,10 @@ Below an example of the results
 
     Open your Whatsapp
 
-    
+> **App icon shows on Dock, disappears and then appears again.**
+>
+> This is the normal behaviour. Wait until it loads.
+
 ---
 
 *This library uses [whatstk](https://lcsrg.me/whatstk) python library.*

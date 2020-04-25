@@ -54,7 +54,7 @@ rgba(0,0,0,0.22);">
 * **How can I get the chat of a WhatsApp chat?**
 
     Open the WhatsApp chat you want to analyze on your mobile phone. Click on _More_, then click on _Export chat_ and
-    choose _Without media_. Wait few seconds until the chat export file has been created and save it (recommended: send t via mail to yourself so it is available on your computer).
+    choose _Without media_. Wait few seconds until the chat export file has been created and save it (recommended: send it via mail to yourself so it is available on your computer).
 
 
 * **App icon shows on Dock, disappears and then appears again.**

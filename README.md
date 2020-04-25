@@ -1,13 +1,13 @@
 # WhatsApp Toolkit - Analyze your chats
 **[versió en català](cat.md)** | **[versión en español](esp.md)**
 
-[Download whatsTK](dist/WhatsTK.zip), to analyse your WhatsApp group chat. **Currently it is only available for Mac OS**
+Use WhatsTK to analyse your WhatsApp group chat. **Currently it is only available for Mac OS**
 
 ![](assets/app-screenshot.png)
 
 ## Downloads
 
-|||
+| <!-- --> | <!-- --> |
 |--------------|-----------------|
 | macOS (Catalina) | [![](https://img.shields.io/badge/download_zip-brightgreen.svg)](dist/WhatsTK.zip) |
 

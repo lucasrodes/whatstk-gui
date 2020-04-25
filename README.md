@@ -3,19 +3,6 @@
 
 Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for mac OS.**
 
-<!-- <p style="text-align: center;"> -->
-<table class="tg" align="center">
-    <tr>
-        <th class="tg-fymr" colspan="2">Downloads</th>
-    </tr>
-    <tr>
-        <td class="tg-0pky">macOS (Catalina)</td>
-    <td class="tg-0pky"><a href="dist/WhatsTK.zip"><img src="https://img.shields.io/badge/download_zip_⬇-brightgreen.svg"
-    alt="WhatsTK user interface" width="100%"></a>
-    </td>
-    </tr>
-</table>
-
 
 <table class="tg" style="display: flex; justify-content: center;">
     <tr>
@@ -28,35 +15,6 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
     </td>
     </tr>
 </table>
-
-
-
-<p align="center">
-<table class="tg">
-    <tr>
-        <th class="tg-fymr" colspan="2">Downloads</th>
-    </tr>
-    <tr>
-        <td class="tg-0pky">macOS (Catalina)</td>
-    <td class="tg-0pky"><a href="dist/WhatsTK.zip"><img src="https://img.shields.io/badge/download_zip_⬇-brightgreen.svg"
-    alt="WhatsTK user interface" width="100%"></a>
-    </td>
-    </tr>
-</table>
-</p>
-
-<!-- </p> -->
-
-<center>
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-</center>
-
 
 ## How to use
 

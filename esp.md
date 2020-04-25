@@ -2,7 +2,7 @@
  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
-# Analyze your WhatsApp chats (versión beta)
+# Analiza tus chats de WhatsApp (versión beta)
 **[english version](README.md)**
 
 Utiliza *WhatsTK* para analizar las conversaciones de tus chats en WhatsApp. **Actualmente sólo está disponible para macOS**
@@ -22,7 +22,7 @@ Utiliza *WhatsTK* para analizar las conversaciones de tus chats en WhatsApp. **A
 </table>
 <br>
 
-## How to use
+## Cómo usar
 
 1. Descomprime el archivo descargado.
 2. Arranca el programa (doble click en el archivo)
@@ -50,9 +50,9 @@ rgba(0,0,0,0.22);">
 <br>
 
 ---
-## FAQs
+## Preguntas frecuentes
 
-* **How can I get the chat of a WhatsApp chat?**
+* **¿Como puedo exportar un chat de WhatsApp como fichero?**
 
     Accede al chat de WhatsApp que quieras analizar usando tu teléfono móbil. Clica en _More_, luego  en _Export chat_ y
     selecciona _Without media_. Espera unos segundos hasta que se genere el fichero (puede tardar varios si el chat es

@@ -2,7 +2,7 @@
  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
-# Analyze your WhatsApp chats
+# Analyze your WhatsApp chats (beta version)
 **[versión en español](esp.md)**
 
 Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for mac OS.**
@@ -119,9 +119,10 @@ rgba(0,0,0,0.22);">
 
     Check python library [whatstk](https://lcsrg.me/whatstk).
 
+
+**Not resolved? Ask your question [here](https://github.com/lucasrodes/whatstk-gui/issues)!**
+
 <br>
-<br>
-> **Not resolved? Ask your question [here](https://github.com/lucasrodes/whatstk-gui/issues)!**
 
 ---
 

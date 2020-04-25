@@ -20,6 +20,17 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 </center>
 <!-- </p> -->
 
+<center>
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+</center>
+
+
 ## How to use
 
 1. UnZip the downloaded file.

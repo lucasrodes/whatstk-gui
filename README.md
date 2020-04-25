@@ -89,9 +89,8 @@ rgba(0,0,0,0.22);">
 
     Check python library [whatstk](https://lcsrg.me/whatstk).
 
-* **Not resolved? Ask your question!**
-    
-    You can ask [here](https://github.com/lucasrodes/whatstk-gui/issues) for your issue.
+> **Not resolved? Ask your question [here](https://github.com/lucasrodes/whatstk-gui/issues)!**
+
 ---
 
 *This library uses [whatstk](https://lcsrg.me/whatstk) python library.*

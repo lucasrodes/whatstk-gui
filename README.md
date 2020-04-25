@@ -37,22 +37,59 @@ rgba(0,0,0,0.22);">
 
 Below an example of the results
 
-![](assets/stats.png)
+<br>
+<br>
+<p style="text-align: center;">
+<img src="assets/stats.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
+rgba(0,0,0,0.22);">
+</p>
+<br>
 
 ---
 ## FAQs
+
+* **How can I get the chat of a WhatsApp chat?**
+
+    Open the WhatsApp chat you want to analyze on your mobile phone. Click on _More_, then click on _Export chat_ and
+    choose _Without media_. Wait few seconds until the chat export file has been created and save it (recommended: send t via mail to yourself so it is available on your computer).
+
 
 * **App icon shows on Dock, disappears and then appears again.**
 
     This is the normal behaviour. Wait until it loads.
 
-* **How can I get the chat of a WhatsApp chat?**
+* **Which is the header of my chat?**
 
-    Open your Whatsapp
+    Open the exported chat file. You will find that the messages have a similar format:
 
-> **App icon shows on Dock, disappears and then appears again.**
->
-> This is the normal behaviour. Wait until it loads.
+    ```
+    15.04.2016, 15:04 - You created group “Sample Group”
+    06.08.2016, 13:18 - Messages you send to this group are now secured with end-to-end encryption. Tap for more info.
+    06.08.2016, 13:23 - Ash Ketchum: Hey guys!
+    06.08.2016, 13:25 - Brock: Hey Ash, good to have a common group!
+    06.08.2016, 13:30 - Misty: Hey guys! Long time haven't heard anything from you
+    06.08.2016, 13:45 - Ash Ketchum: Indeed. I think having a whatsapp group nowadays is a good idea
+    06.08.2016, 14:30 - Misty: Definetly
+    06.08.2016, 17:25 - Brock: I totally agree
+    07.08.2016, 11:45 - Prof. Oak: Kids, shall I design a smart poke-ball?
+    ```
+
+    In this example, the header is "DAY.MONTH.YEAR, HOUR:MINUTES - USERNAME:", which corresponds to a header format code
+    is: `%d.%m.%Y, %H:%M -- %name:`.
+    
+    | Unit Code | Definition               |
+    |-----------|--------------------------|
+    | %y        | Year                     |
+    | %m        | Month of the year (1-12) |
+    | %d        | Day of the month (0-31)  |
+    | %H        | Hour 24h-clock (0-23)    |
+    | %P        | Hour 12h-clock (1-12)    |
+    | %M        | Minutes (0-60)           |
+    | %name     | Name of user             |
+
+* **I am an experimented coder. Where can I access to the code?**
+
+    Check python library [whatstk](https://lcsrg.me/whatstk).
 
 ---
 

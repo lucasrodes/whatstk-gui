@@ -75,15 +75,40 @@ rgba(0,0,0,0.22);">
     In this example, the header is "DAY.MONTH.YEAR, HOUR:MINUTES - USERNAME:", which corresponds to a header format code
     is: `%d.%m.%Y, %H:%M -- %name:`.
     
-    | Unit Code | Definition               |
-    |-----------|--------------------------|
-    | %y        | Year                     |
-    | %m        | Month of the year (1-12) |
-    | %d        | Day of the month (0-31)  |
-    | %H        | Hour 24h-clock (0-23)    |
-    | %P        | Hour 12h-clock (1-12)    |
-    | %M        | Minutes (0-60)           |
-    | %name     | Name of user             |
+<table class="tg" style="display: flex; justify-content: center;">
+  <tr>
+    <th class="tg-7btt">Date Unit Code</th>
+    <th class="tg-7btt">Definition</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%y</td>
+    <td class="tg-0pky">Year</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%m</td>
+    <td class="tg-0pky">Month of the year (1-12)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%d</td>
+    <td class="tg-0pky">Day of the month (0-31)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%H</td>
+    <td class="tg-0pky">Hour 24h-clock (0-23)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%P</td>
+    <td class="tg-0pky">Hour 12h-clock (1-12)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%M</td>
+    <td class="tg-0pky">Minutes (0-60)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%name</td>
+    <td class="tg-0pky">Name of user</td>
+  </tr>
+</table>
 
 * **I am an experimented coder. Where can I access to the code?**
 

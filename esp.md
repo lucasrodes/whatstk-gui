@@ -11,7 +11,7 @@ Utiliza *WhatsTK* para analizar las conversaciones de tus chats en WhatsApp. **A
 |--------------|-----------------|
 | macOS (Catalina) | [![](https://img.shields.io/badge/descargar_zip-brightgreen.svg)](dist/WhatsTK.zip) |
 
-## How to use
+## Como usarlo
 1. Descomprime el archivo descargado.
 2. Arranca el programa (doble click en el archivo)
 3. Cuando se haya cargado (puede tardar unos segundos), clica e _Load chat file_ para cargar tu archivo `txt` de WhatsApp.

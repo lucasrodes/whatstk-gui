@@ -1,20 +1,9 @@
 # Analyze your WhatsApp chats
 **[versión en español](esp.md)**
 
-Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for Mac OS**
+Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for mac OS.**
 
-<br>
-<br>
-<p style="text-align: center;">
-<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
-rgba(0,0,0,0.22);">
-</p>
-<br>
-
-## Downloads
-
-<p style="text-align: center;">
-    <table class="tg">
+<table class="tg" style="margin: auto;">
     <tr>
         <th class="tg-fymr" colspan="2">Downloads</th>
     </tr>
@@ -24,10 +13,18 @@ rgba(0,0,0,0.22);">
     alt="WhatsTK user interface" width="100%"></a>
     </td>
     </tr>
-    </table>
-</p>
+</table>
 
 ## How to use
+
+<p style="text-align: center;">
+<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
+rgba(0,0,0,0.22);">
+</p>
+<br>
+
+
+
 1. UnZip the downloaded file.
 2. Start the program (double click on the file)
 3. Once the Software is loadewd (might take few seconds), click on _Load chat file_ to select file.

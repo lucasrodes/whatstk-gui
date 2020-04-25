@@ -6,9 +6,8 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 <br>
 <br>
 <p style="text-align: center;">
-<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height=auto style="box-shadow: 10px 13px 21px -6px
-rgba(0,0,0,0.22); -webkit-box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);
--moz-box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);">
+<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
+rgba(0,0,0,0.22);">
 </p>
 <br>
 

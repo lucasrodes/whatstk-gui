@@ -6,22 +6,27 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 <br>
 <br>
 <p style="text-align: center;">
-<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" style="box-shadow: 10px 13px 21px -6px
+<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height=auto style="box-shadow: 10px 13px 21px -6px
 rgba(0,0,0,0.22); -webkit-box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);
--moz-box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);
-">
+-moz-box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);">
 </p>
 <br>
 
 ## Downloads
 
-<p style="justify-content: center;">
-
-| <!-- --> | <!-- --> |
-|--------------|-----------------|
-| macOS (Catalina) | [![](https://img.shields.io/badge/download_zip-brightgreen.svg)](dist/WhatsTK.zip) |
-
-</p>
+<view style="display: flex, justify-content: center">
+    <table class="tg">
+    <tr>
+        <th class="tg-fymr" colspan="2">Downloads</th>
+    </tr>
+    <tr>
+        <td class="tg-0pky">macOS (Catalina)</td>
+    <td class="tg-0pky"><a href="dist/WhatsTK.zip"><img src="https://img.shields.io/badge/download_zip-brightgreen.svg"
+    alt="WhatsTK user interface" width="100%"></a>
+    </td>
+    </tr>
+    </table>
+</view>
 
 ## How to use
 1. UnZip the downloaded file.

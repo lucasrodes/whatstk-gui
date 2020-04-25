@@ -14,7 +14,7 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
         <th class="tg-fymr" colspan="2">Downloads</th>
     </tr>
     <tr>
-        <td class="tg-0pky">macOS (Catalina)</td>
+        <td class="tg-0pky">macOS (10.13 and above)</td>
     <td class="tg-0pky"><a href="dist/WhatsTK.zip"><img src="https://img.shields.io/badge/download_zip_⬇-brightgreen.svg"
     alt="WhatsTK user interface" width="100%"></a>
     </td>
@@ -108,6 +108,10 @@ rgba(0,0,0,0.22);">
   <tr>
     <td class="tg-0pky">%M</td>
     <td class="tg-0pky">Minutes (0-60)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">%S</td>
+    <td class="tg-0pky">Seconds (0-60)</td>
   </tr>
   <tr>
     <td class="tg-0pky">%name</td>

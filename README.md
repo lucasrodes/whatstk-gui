@@ -3,9 +3,7 @@
 
 Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for Mac OS**
 
-<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" style="-webkit-box-shadow': 10px 13px 21px -6px rgba(0,0,0,0.22);
--moz-box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);
-box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);">
+<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" style="box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);">
 
 
 ## Downloads

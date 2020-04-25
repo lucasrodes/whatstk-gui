@@ -3,7 +3,8 @@
 
 Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for mac OS.**
 
-<table class="tg" style="margin: auto;">
+<view style="display: flex; justify-content: center">
+<table class="tg">
     <tr>
         <th class="tg-fymr" colspan="2">Downloads</th>
     </tr>
@@ -14,6 +15,7 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
     </td>
     </tr>
 </table>
+</view>
 
 ## How to use
 

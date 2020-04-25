@@ -35,11 +35,11 @@ rgba(0,0,0,0.22);">
 
 4. Write down the header format of your whatsapp chat file. For instance `%d.%m.%y, %H:%M - %name:` (check more on
    `headers` section below).
-5. Click on `Run`.
+5. Click on `Run`. 
 
 <br>
 
-Below an example of the results
+The results are given in `HTML` format, so the graphs are interactive. Below is an example. 
 
 <br>
 <p style="text-align: center;">

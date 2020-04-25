@@ -40,6 +40,8 @@ rgba(0,0,0,0.22);">
 
 A continuación un ejemplo
 
+Los resultados tienen el formato `HTML`, de modo que los grafos son interactivos. A continuación un ejemplo.
+
 <br>
 <p style="text-align: center;">
 <img src="assets/stats.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px

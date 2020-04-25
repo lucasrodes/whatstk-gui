@@ -1,4 +1,4 @@
-# WhatsApp Toolkit - Analyze your chats
+# Analyze your WhatsApp chats
 **[versió en català](cat.md)** | **[versión en español](esp.md)**
 
 Use WhatsTK to analyse your WhatsApp group chat. **Currently it is only available for Mac OS**

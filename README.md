@@ -1,14 +1,16 @@
 # Graphical User Interface for whatstk
-[![](https://img.shields.io/badge/download_WhatsTK-brightgreen.svg)](dist/WhatsTK.zip)
-
-
 **[versió en català](cat.md)** | **[versión en español](esp.md)**
 
 [Download whatsTK](dist/WhatsTK.zip), to analyse your WhatsApp group chat. **Currently it is only available for Mac OS**
 
 ![](assets/app-screenshot.png)
 
-### How to use
+
+| Downloads |                 |
+|--------------|-----------------|
+| macOS (Catalina) | [![](https://img.shields.io/badge/download_zip-brightgreen.svg)](dist/WhatsTK.zip) |
+
+## How to use
 1. UnZip the downloaded file.
 2. Start the program (double click on the file)
 3. Once the Software is loadewd (might take few seconds), click on _Load chat file_ to select file.

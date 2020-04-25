@@ -78,7 +78,7 @@ rgba(0,0,0,0.22);">
     ```
 
     In this example, the header is "DAY.MONTH.YEAR, HOUR:MINUTES - USERNAME:", which corresponds to a header format code
-    is: `%d.%m.%Y, %H:%M -- %name:`.
+    is: `%d.%m.%Y, %H:%M - %name:`.
     
 <table class="tg" style="display: flex; justify-content: center;">
   <tr>

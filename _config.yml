@@ -1,7 +1,7 @@
 # Site settings
 title: WhatsTK - Analyze your WhatsApp chats
 tag_text: 'WhatsApp, Data Analysis'
-description: "Use WhatsTK to analyse your personal and group WhatsApp chats."
+description: "Use WhatsTK App to analyse your personal and group WhatsApp chats."
 baseurl: "lcsrg.me/whatstk-gui"
 
 font-awesome-include: true # make this false if you don't need font-awesome

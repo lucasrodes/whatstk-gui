@@ -3,9 +3,9 @@
 </head>
 
 # Analyze your WhatsApp chats (beta version)
-**[versión en español](pages/esp.md)**
+![Package version](https://img.shields.io/badge/Last_Version-0.0.0-teal.svg?style=for-the-badge)
 
-![Package version](https://img.shields.io/badge/Last_Version-0.0.0-blue.svg?style=for-the-badge)
+[![Spanish Version](https://img.shields.io/badge/español-blue.svg)](pages/esp.md)
 
 Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available for mac OS.**
 

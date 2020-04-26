@@ -34,8 +34,8 @@ hdiutil create -format UDZO -srcfolder ./${RELEASE_PATH}/${APP_NAME}.app/ ./${RE
 # Move to debug
 ECHO ">> 5 MOVE TO DEBUG"
 mkdir -p ${DEBUG_PATH}
-[ -f ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app/ ] && rm - f ../${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app/
-[ -f ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME} ] && rm ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME}
+[ -f ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app/ ] && rm -fr ../${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app/
+[ -f ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME} ] && rm -f ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME}
 
 mv -f ./${RELEASE_PATH}/${APP_NAME}.app ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app
 mv -f ./${RELEASE_PATH}/app ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME}

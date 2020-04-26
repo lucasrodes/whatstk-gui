@@ -39,12 +39,12 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=False , icon='favicon2.ico'
+    console=False , icon='favicon.ico'
 )
 
 app = BUNDLE(
     exe,
     name='WhatsTK.app',
-    icon='favicon2.ico',
+    icon='favicon.ico',
     bundle_identifier=None
 )

@@ -48,7 +48,10 @@ class App(Tk):
         return header_input, load_info_label
 
     def upload_file(self, event=None):
-        self.filename = filedialog.askopenfilename()
+        print(1)
+        self.filename = filedialog.askopenfilename(title="Select file",filetypes = (("Text files","*.txt"),))
+        self.filename = self.filename.encode('ascii', 'ignore').decode('ascii')
+        print('Selected:', self.filename)
         self.load_info_label.configure(text=self.filename)
         print('Selected:', self.filename)
     

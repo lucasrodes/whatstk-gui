@@ -5,7 +5,7 @@
 # Analiza tus chats de WhatsApp (versión beta)
 ![Package version](https://img.shields.io/badge/Last_Version-0.0.0-teal.svg?style=for-the-badge)
 
-[![English Version](https://img.shields.io/badge/english-blue.svg)](../index.md)
+[![English Version](https://img.shields.io/badge/english-blue.svg)](https://lcsrg.me/whatstk-gui/pages/esp.html)
 
 Utiliza *WhatsTK* para analizar las conversaciones de tus chats en WhatsApp. **Actualmente sólo está disponible para macOS**
 
@@ -31,7 +31,7 @@ Utiliza *WhatsTK* para analizar las conversaciones de tus chats en WhatsApp. **A
 3. Cuando se haya cargado (puede tardar unos segundos), clica e _Load chat file_ para cargar tu archivo `txt` de WhatsApp.
 
 <p style="text-align: center;">
-<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
+<img src="../assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
 rgba(0,0,0,0.22);">
 </p>
 
@@ -46,7 +46,7 @@ Los resultados tienen el formato `HTML`, de modo que los grafos son interactivos
 
 <br>
 <p style="text-align: center;">
-<img src="assets/stats.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
+<img src="../assets/stats.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
 rgba(0,0,0,0.22);">
 </p>
 <br>

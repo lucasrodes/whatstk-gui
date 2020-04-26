@@ -17,7 +17,7 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
     </tr>
     <tr>
         <td class="tg-0pky">macOS (10.13 and above)</td>
-    <td class="tg-0pky"><a href="releases/v0.0.0/WhatsTK-0.0.0-macOS-10.13.dmg"><img src="https://img.shields.io/badge/download_dmg_⬇-brightgreen.svg?style=for-the-badge"
+    <td class="tg-0pky"><a href="releases/v0.0.0/WhatsTK-v0.0.0-macOS-10.13.dmg"><img src="https://img.shields.io/badge/download_dmg_⬇-brightgreen.svg?style=for-the-badge"
     alt="WhatsTK user interface" width="100%"></a>
     </td>
     </tr>

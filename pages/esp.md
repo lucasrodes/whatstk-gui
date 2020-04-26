@@ -3,7 +3,7 @@
 </head>
 
 # Analiza tus chats de WhatsApp (versión beta)
-**[english version](README.md)**
+**[english version](../index.md)**
 
 Utiliza *WhatsTK* para analizar las conversaciones de tus chats en WhatsApp. **Actualmente sólo está disponible para macOS**
 

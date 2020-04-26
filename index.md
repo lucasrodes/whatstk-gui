@@ -3,7 +3,7 @@
 </head>
 
 # Analyze your WhatsApp chats (beta version)
-**[versión en español](esp.md)**
+**[versión en español](pages/esp.md)**
 
 ![Package version](https://img.shields.io/badge/Last_Version-0.0.0-blue.svg?style=for-the-badge)
 

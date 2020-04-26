@@ -6,6 +6,7 @@ baseurl: "lcsrg.me/whatstk-gui"
 
 font-awesome-include: true # make this false if you don't need font-awesome
 
+theme: jekyll-theme-so-simple
 # Build settings
 markdown: kramdown
 

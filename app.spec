@@ -5,8 +5,8 @@ block_cipher = None
 
 
 a = Analysis(
-    ['app.py'],
-    pathex=['/Users/lucasrodes/repos/whatstk-gui'],
+    ['test.py'],
+    pathex=['/Users/lucasrodes/repos/whatstk-gui/releases/macOS-10.13'],
     binaries=[('/System/Library/Frameworks/Tk.framework/Tk', 'tk'), ('/System/Library/Frameworks/Tcl.framework/Tcl', 'tcl')],
     datas=[('/Users/lucasrodes/repos/whatstk-gui/py37/lib/python3.7/site-packages/plotly', 'plotly')],
     hiddenimports=[],
@@ -39,12 +39,14 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=False , icon='favicon.ico'
+    console=False , icon='assets/favicon.icns'
 )
 
 app = BUNDLE(
     exe,
     name='WhatsTK.app',
-    icon='favicon.ico',
+    icon='assets/favicon.icns',
     bundle_identifier=None
 )
+
+DISTPATH='dist/test/'

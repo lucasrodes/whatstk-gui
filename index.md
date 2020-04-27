@@ -58,6 +58,18 @@ rgba(0,0,0,0.22);">
     Open the WhatsApp chat you want to analyze on your mobile phone. Click on _More_, then click on _Export chat_ and
     choose _Without media_. Wait few seconds until the chat export file has been created and save it (recommended: send it via mail to yourself so it is available on your computer).
 
+    <table class="tg" style="display: flex; justify-content: center;">
+    <tr>
+      <th style="text-align: center;">Android</th>
+      <th style="text-align: center;">iOS</th>
+    </tr>
+      <td style="text-align: center;">
+      <img src="assets/chat-export-android.gif" alt="WhatsTK user interface" width="50%" height='auto' style="box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22);">
+      </td>
+      <td style="text-align: center; font-style: italic;">Not available</td>
+    <tr>
+    </tr>
+</table>
 
 * **App icon shows on Dock, disappears and then appears again.**
 

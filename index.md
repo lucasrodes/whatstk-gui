@@ -24,18 +24,11 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 </table>
 <br>
 
-## How to use
+## How do I use it?
 
 1. Start the program (double click on the Application).
-3. Once the Software is loaded (might take few seconds), click on _Load chat file_ to select file.
-
-<p style="text-align: center;">
-<img src="assets/app-screenshot.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
-rgba(0,0,0,0.22);">
-</p>
-
-4. Write down the header format of your whatsapp chat file. For instance `%d.%m.%y, %H:%M - %name:` (check more on
-   `headers` section below).
+2. Load your chat as a text file (see [here]() on how to obtain it).
+3. Choose the header format according to your chat (see more on this [here]()).
 5. Click on `Run`. 
 
 <br>

@@ -56,20 +56,20 @@ rgba(0,0,0,0.22);">
 
 <div style="display: flex;">
 
-  <div style="display: flex; flex-direction: column; flex: 1; align-items: stretch;">
+  <div style="display: flex; flex-direction: column; flex: 1; align-items: stretch; justify-content: space-between;">
     <div style="flex:10; display: flex; justify-content: center; align-items: center; padding: 0px 20px;">
       <img src="assets/chat-export-android.gif" alt="WhatsTK user interface" style="box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22); max-height: 600px;">
     </div>
-    <div style="flex:1; display:flex; justify-content: center; align-items: center; padding-top: 10px;">
+    <div style="flex:1; display:flex; justify-content: flex-end; flex-direction: column; align-items: center; padding-top: 20px;">
       <span style="text-align: center; font-style: italic;">Android 9</span>
     </div>
   </div>
 
-  <div style="display: flex; flex-direction: column; flex: 1; align-items: stretch;">
+  <div style="display: flex; flex-direction: column; flex: 1; align-items: stretch; justify-content: space-between; ">
     <div style="flex:10; display: flex; justify-content: center; align-items: center; padding: 0px 20px;">
       <img src="assets/chat-export-ios.gif" alt="Export WhatsApp chat file in iOS (not yet available)" style="box-shadow: 10px 13px 21px -6px rgba(0,0,0,0.22); max-height: 600px;">
     </div>
-    <div style="flex:1; display:flex; justify-content: center; align-items: center; padding-top: 105;">
+    <div style="flex:1; display:flex; justify-content: flex-end; flex-direction: column;  align-items: center; padding-top: 20px;">
       <span style="text-align: center; font-style: italic;">iOS</span>
     </div>
   </div>

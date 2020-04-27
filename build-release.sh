@@ -13,29 +13,34 @@ OS_NAME=${OS}-${OS_VERSION}
 
 DEBUG_PATH=debug/${VERSION}
 RELEASE_PATH=releases/${VERSION}
+mkdir -p ./${RELEASE_PATH}
+mkdir -p ./${DEBUG_PATH}
 
 # build app
 ECHO ">> 2 CREATE EXECUTABLE"
-mkdir -p ./${RELEASE_PATH}
-pyinstaller --distpath ./${RELEASE_PATH} app.spec
+[ -f ./${DEBUG_PATH}/${APP_NAME} ] && rm -fr ./${DEBUG_PATH}/${APP_NAME}.app/
+[ -f ./${DEBUG_PATH}/${APP_NAME}.app/ ] && rm -fr ./${DEBUG_PATH}/${APP_NAME}.app/
+pyinstaller --distpath ./${DEBUG_PATH} app.spec
 
 # Add required files
 ECHO ">> 3 ADDING EXTERNAL PACKAGES (tk, tcl)"
-mkdir -p ${PROJECT_PATH}/${RELEASE_PATH}/${APP_NAME}.app/Contents/lib/
-cp -r ${LIB_PATH}/tk8.6 ${PROJECT_PATH}/${RELEASE_PATH}/${APP_NAME}.app/Contents/lib/tk8.6 
-cp -r ${LIB_PATH}/tcl8.6 ${PROJECT_PATH}/${RELEASE_PATH}/${APP_NAME}.app/Contents/lib/tcl8.6 
+mkdir -p ./${DEBUG_PATH}/${APP_NAME}.app/Contents/lib/
+cp -r ${LIB_PATH}/tk8.6 ${PROJECT_PATH}/${DEBUG_PATH}/${APP_NAME}.app/Contents/lib/tk8.6 
+cp -r ${LIB_PATH}/tcl8.6 ${PROJECT_PATH}/${DEBUG_PATH}/${APP_NAME}.app/Contents/lib/tcl8.6 
 
-# Compress
+# Create DMG
 ECHO ">> 4 CREATE DMG"
-[ -f ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg ] && rm ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg
-hdiutil create -format UDZO -srcfolder ./${RELEASE_PATH}/${APP_NAME}.app/ ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg
+# [ -f ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg ] && rm ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg
 # tar -zcvf test.tar.gz ${RELEASE_PATH}/${APP_NAME}.app/ ${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg
-
-# Move to debug
-ECHO ">> 5 MOVE TO DEBUG"
-mkdir -p ${DEBUG_PATH}
-[ -f ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app/ ] && rm -fr ../${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app/
-[ -f ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME} ] && rm -f ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME}
-
-mv -f ./${RELEASE_PATH}/${APP_NAME}.app ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.app
-mv -f ./${RELEASE_PATH}/app ./${DEBUG_PATH}/app-${VERSION}-${OS_NAME}
+[ -f ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}-Installer.dmg ] && rm -f ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}-Installer.dmg
+create-dmg \
+    --volname ${APP_NAME}-${VERSION}-${OS_NAME}-Installer \
+    --window-pos 200 120 \
+    --window-size 500 128 \
+    --background "assets/drop-arrow.png" \
+    --icon-size 128 \
+    --icon ${APP_NAME}.app 64 64 \
+    --hide-extension ${APP_NAME}.app \
+    --app-drop-link 320 64 \
+    ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}-Installer.dmg \
+    ./${DEBUG_PATH}/${APP_NAME}.app/

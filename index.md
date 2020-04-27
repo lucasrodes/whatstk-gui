@@ -11,13 +11,13 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 
 <br>
 
-<table class="tg" style="display: flex; justify-content: center;">
+<table class="tg" style="display: flex; justify-content: center; width: 100%;">
     <tr>
         <th class="tg-fymr" colspan="2">Downloads</th>
     </tr>
     <tr>
         <td class="tg-0pky">macOS (10.13 and above)</td>
-    <td class="tg-0pky"><a href="releases/v0.0.0/WhatsTK-v0.0.0-macOS-10.13.dmg"><img src="https://img.shields.io/badge/download_dmg_⬇-brightgreen.svg?style=for-the-badge"
+    <td class="tg-0pky"><a href="releases/v0.0.0/WhatsTK-v0.0.0-macOS-10.13.dmg"><img src="https://img.shields.io/badge/download_dmg_⬇-birghtgreen.svg?style=for-the-badge"
     alt="WhatsTK user interface" width="100%"></a>
     </td>
     </tr>
@@ -26,8 +26,7 @@ Use *WhatsTK* to analyse your WhatsApp chats. **Currently it is only available f
 
 ## How to use
 
-1. UnZip the downloaded file.
-2. Start the program (double click on the file)
+1. Start the program (double click on the Application).
 3. Once the Software is loaded (might take few seconds), click on _Load chat file_ to select file.
 
 <p style="text-align: center;">

@@ -19,7 +19,7 @@ mkdir -p ./${DEBUG_PATH}
 # build app
 ECHO ">> 2 CREATE EXECUTABLE"
 [ -f ./${DEBUG_PATH}/${APP_NAME} ] && rm -fr ./${DEBUG_PATH}/${APP_NAME}.app/
-[ -f ./${DEBUG_PATH}/${APP_NAME}.app/ ] && rm -fr ./${DEBUG_PATH}/${APP_NAME}.app/
+[ -f ./${DEBUG_PATH}/${APP_NAME}.app/ ] && rm -fr ./${DEBUG_PATH}/${APP_NAME}
 pyinstaller --distpath ./${DEBUG_PATH} app.spec
 
 # Add required files

@@ -76,6 +76,7 @@ rgba(0,0,0,0.22);">
   
 </div>
 
+<br>
 
 * **App icon shows on Dock, disappears and then appears again.**
 

@@ -160,7 +160,7 @@ class App(Tk):
             raise e
         counts = interventions(chat, 'date', msg_length=False)
         counts_cumsum = counts.cumsum()
-        plot(vis(counts_cumsum, 'cumulative characters sent per day'))
+        plot(vis(counts_cumsum, 'Cummulative number of messages sent per day'))
 
 
 class WhatsTKGUIError(Exception):

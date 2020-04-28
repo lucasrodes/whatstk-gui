@@ -27,17 +27,16 @@ Use **WhatsTK** to analyse your WhatsApp chats. Currently it is **only available
 ## How do I use it?
 
 1. Start the program (double click on the Application).
-2. Load your chat as a text file (see [here]() on how to obtain it).
-3. Choose the header format according to your chat (see more on this [here]()).
-5. Click on `Run`. 
+2. Load your chat as a text file (see FAQs section on how to obtain it).
+3. Try `Auto Run`. If it does not work, check Manual Run options.
 
 <br>
 
-The results are given in `HTML` format, so the graphs are interactive. Below is an example. 
+The results are given in `HTML` format, so the graphs are interactive. 
 
 <br>
 <p style="text-align: center;">
-<img src="assets/stats.png" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
+<img src="assets/sample-example.gif" alt="WhatsTK user interface" width="500" height='auto' style="box-shadow: 10px 13px 21px -6px
 rgba(0,0,0,0.22);">
 </p>
 <br>
@@ -47,8 +46,11 @@ rgba(0,0,0,0.22);">
 
 * **How can I export a WhatsApp chat as a file?**
 
-    Open the WhatsApp chat you want to analyze on your mobile phone. Click on _More_, then click on _Export chat_ and
-    choose _Without media_. Wait few seconds until the chat export file has been created and save it (recommended: send it via mail to yourself so it is available on your computer).
+    Exporting the WhatsApp chat can be easily done from your iOS or Android device. Check the _gifs_ below to see the instructions. When exporting, make sure to select the chats _Without Media_ option. Once generated, you can send it via mail, so you can save it in your computer.
+    
+    On **Android**, several files might be exported. We are only interested in the text file (i.e. `txt` extension file).
+    
+    On **iOS**, the chat is exported as a `zip`. Once on your computer, unzip it to obtain the `txt`.
 
 <br>
 
@@ -82,9 +84,19 @@ rgba(0,0,0,0.22);">
 
     This is the normal behaviour. Wait until it loads.
 
-* **Which is the header of my chat?**
+* **Auto Run or Manual Run?**
 
-    Open the exported chat file. You will find that the messages have a similar format:
+    Auto Run tries to automatically detect the header used in your chat file, which can be different between devices and countries.
+
+    If it does not work, try the Manual Run by selecting the header format from the dropdown menu.
+
+* **What is the so called _header format_?**
+    The chat file syntax can differ between devices, OS and language settings, which makes it hard some times to
+    correctly parse the data and make WhatsTK work correctly.
+
+    The _header_ is a part in the chat file, which repeats for each message, containing a timestamp and a name of the user that sent the message.
+    
+    See it for yourself. Open the exported chat file. You will find that the messages have a similar format:
 
     ```
     15.04.2016, 15:04 - You created group “Sample Group”
@@ -98,47 +110,8 @@ rgba(0,0,0,0.22);">
     07.08.2016, 11:45 - Prof. Oak: Kids, shall I design a smart poke-ball?
     ```
 
-    In this example, the header is "DAY.MONTH.YEAR, HOUR:MINUTES - USERNAME:", which corresponds to a header format code
-    is: `%d.%m.%Y, %H:%M - %name:`.
+    In this example, the header is "DAY.MONTH.YEAR, HOUR:MINUTES - USERNAME:".
     
-<table class="tg" style="display: flex; justify-content: center;">
-  <tr>
-    <th class="tg-7btt">Date Unit Code</th>
-    <th class="tg-7btt">Definition</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%y</td>
-    <td class="tg-0pky">Year</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%m</td>
-    <td class="tg-0pky">Month of the year (1-12)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%d</td>
-    <td class="tg-0pky">Day of the month (0-31)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%H</td>
-    <td class="tg-0pky">Hour 24h-clock (0-23)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%P</td>
-    <td class="tg-0pky">Hour 12h-clock (1-12)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%M</td>
-    <td class="tg-0pky">Minutes (0-60)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%S</td>
-    <td class="tg-0pky">Seconds (0-60)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">%name</td>
-    <td class="tg-0pky">Name of user</td>
-  </tr>
-</table>
 
 * **I am an experimented coder. Where can I access to the code?**
 

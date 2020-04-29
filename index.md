@@ -5,7 +5,7 @@
 # Analyze your WhatsApp chats (beta version)
 ![Package version](https://img.shields.io/badge/Last_Version-0.0.0-teal.svg?style=for-the-badge)
 
-[![Spanish Version](https://img.shields.io/badge/español-blue.svg)](pages/esp.md)
+<!-- [![Spanish Version](https://img.shields.io/badge/español-blue.svg)](pages/esp.md) -->
 
 Use **WhatsTK** to analyse your WhatsApp chats. Currently it is **only available for mac OS**.
 
@@ -88,15 +88,16 @@ rgba(0,0,0,0.22);">
 
     Auto Run tries to automatically detect the header used in your chat file, which can be different between devices and countries.
 
-    If it does not work, try the Manual Run by selecting the header format from the dropdown menu.
+    If it does not work, try the `Manual Run` by selecting the appropriate header format from the dropdown menu.
 
 * **What is the so called _header format_?**
     The chat file syntax can differ between devices, OS and language settings, which makes it hard some times to
     correctly parse the data and make WhatsTK work correctly.
 
-    The _header_ is a part in the chat file, which repeats for each message, containing a timestamp and a name of the user that sent the message.
+    The _header_ appears for each message sent in the chat. It contains a timestamp and the name of the user that sent the message.
     
-    See it for yourself. Open the exported chat file. You will find that the messages have a similar format:
+    See it for yourself and open the exported chat file. You will find that the messages have a similar format like the
+    one below:
 
     ```
     15.04.2016, 15:04 - You created group “Sample Group”
@@ -110,7 +111,8 @@ rgba(0,0,0,0.22);">
     07.08.2016, 11:45 - Prof. Oak: Kids, shall I design a smart poke-ball?
     ```
 
-    In this example, the header is "DAY.MONTH.YEAR, HOUR:MINUTES - USERNAME:".
+    In this example, the header is `day.month.year, hour:minutes - username:`. However, in your case it may be something
+    else like `[year/month/day hour:minutes:seconds] username:`
     
 
 * **I am an experimented coder. Where can I access to the code?**

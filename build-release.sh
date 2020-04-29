@@ -4,7 +4,7 @@
 ECHO ">> 1 DEFINING VARIABLES"
 sh set-environment-variables.sh  # Set variables PLOTLY_PATH, PROJECT_PATH, LIB_PATH
 
-VERSION=v0.0.0
+VERSION=v0.0.1
 APP_NAME=WhatsTK
 
 OS=macOS

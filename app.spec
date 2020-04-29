@@ -49,7 +49,7 @@ app = BUNDLE(
     bundle_identifier=None,
     info_plist={
         'NSPrincipalClass': 'NSApplication',
-        'CFBundleShortVersionString': '0.0.0'
+        'CFBundleShortVersionString': '0.0.1'
     }
 )
 

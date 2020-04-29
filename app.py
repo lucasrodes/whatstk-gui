@@ -69,7 +69,7 @@ class App(Tk):
         font = tkFont.Font(family="Lucida Grande", size=30)
         title_label = Label(self, text="WhatsTK", font=font)
         title_label.grid(column=1, row=0)
-        version_label = Label(self, text="v0.0.0")
+        version_label = Label(self, text="v0.0.1")
         version_label.grid(column=1, row=1)
 
         # Chat loading

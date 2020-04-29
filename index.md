@@ -3,7 +3,7 @@
 </head>
 
 # Analyze your WhatsApp chats (beta version)
-![Package version](https://img.shields.io/badge/Last_Version-0.0.0-teal.svg?style=for-the-badge)
+![Package version](https://img.shields.io/badge/Last_Version-0.0.1-teal.svg?style=for-the-badge)
 
 <!-- [![Spanish Version](https://img.shields.io/badge/español-blue.svg)](pages/esp.md) -->
 
@@ -17,7 +17,7 @@ Use **WhatsTK** to analyse your WhatsApp chats. Currently it is **only available
     </tr>
     <tr>
         <td class="tg-0pky">macOS (10.13 and above)</td>
-    <td class="tg-0pky"><a href="releases/v0.0.0/WhatsTK-v0.0.0-macOS-10.13-Installer.dmg"><img src="https://img.shields.io/badge/download_dmg_⬇-birghtgreen.svg?style=for-the-badge"
+    <td class="tg-0pky"><a href="releases/v0.0.1/WhatsTK-v0.0.1-macOS-10.13-Installer.dmg"><img src="https://img.shields.io/badge/download_dmg_⬇-birghtgreen.svg?style=for-the-badge"
     alt="WhatsTK user interface" width="100%"></a>
     </td>
     </tr>

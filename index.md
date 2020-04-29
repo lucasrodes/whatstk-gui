@@ -27,7 +27,7 @@ Use **WhatsTK** to analyse your WhatsApp chats. Currently it is **only available
 ## How do I use it?
 
 1. Start the program (double click on the Application).
-2. Load your chat as a text file (see FAQs section on how to obtain it).
+2. Load your chat as a text file (see [FAQs](#FAQs) section on how to obtain it).
 3. Try `Auto Run`. If it does not work, check Manual Run options.
 
 <br>
@@ -80,48 +80,49 @@ rgba(0,0,0,0.22);">
 
 <br>
 
-* **App icon shows on Dock, disappears and then appears again.**
+#### App icon shows on Dock, disappears and then appears again.
 
-    This is the normal behaviour. Wait until it loads.
+This is the normal behaviour. It may appear and disappear. But once it disappears it will come back in few seconds. Just wait until it loads and enjoy WhatsTK!
 
-* **Auto Run or Manual Run?**
+#### Auto Run or Manual Run?
 
-    Auto Run tries to automatically detect the header used in your chat file, which can be different between devices and countries.
+Auto Run tries to automatically detect the header used in your chat file, which can be different between devices and countries.
 
-    If it does not work, try the `Manual Run` by selecting the appropriate header format from the dropdown menu.
+If it does not work, try the `Manual Run` by selecting the appropriate header format from the dropdown menu.
 
-* **What is the so called _header format_?**
-    The chat file syntax can differ between devices, OS and language settings, which makes it hard some times to
-    correctly parse the data and make WhatsTK work correctly.
+#### What is the so called _header format_?
 
-    The _header_ appears for each message sent in the chat. It contains a timestamp and the name of the user that sent the message.
-    
-    See it for yourself and open the exported chat file. You will find that the messages have a similar format like the
-    one below:
+The chat file syntax can differ between devices, OS and language settings, which makes it hard some times to
+correctly parse the data and make WhatsTK work correctly.
 
-    ```
-    15.04.2016, 15:04 - You created group “Sample Group”
-    06.08.2016, 13:18 - Messages you send to this group are now secured with end-to-end encryption. Tap for more info.
-    06.08.2016, 13:23 - Ash Ketchum: Hey guys!
-    06.08.2016, 13:25 - Brock: Hey Ash, good to have a common group!
-    06.08.2016, 13:30 - Misty: Hey guys! Long time haven't heard anything from you
-    06.08.2016, 13:45 - Ash Ketchum: Indeed. I think having a whatsapp group nowadays is a good idea
-    06.08.2016, 14:30 - Misty: Definetly
-    06.08.2016, 17:25 - Brock: I totally agree
-    07.08.2016, 11:45 - Prof. Oak: Kids, shall I design a smart poke-ball?
-    ```
+The _header_ appears for each message sent in the chat. It contains a timestamp and the name of the user that sent the message.
 
-    In this example, the header is `day.month.year, hour:minutes - username:`. However, in your case it may be something
-    else like `[year/month/day hour:minutes:seconds] username:`
-    
+See it for yourself and open the exported chat file. You will find that the messages have a similar format like the
+one below:
 
-* **I am an experimented coder. Where can I access to the code?**
+```
+15.04.2016, 15:04 - You created group “Sample Group”
+06.08.2016, 13:18 - Messages you send to this group are now secured with end-to-end encryption. Tap for more info.
+06.08.2016, 13:23 - Ash Ketchum: Hey guys!
+06.08.2016, 13:25 - Brock: Hey Ash, good to have a common group!
+06.08.2016, 13:30 - Misty: Hey guys! Long time haven't heard anything from you
+06.08.2016, 13:45 - Ash Ketchum: Indeed. I think having a whatsapp group nowadays is a good idea
+06.08.2016, 14:30 - Misty: Definetly
+06.08.2016, 17:25 - Brock: I totally agree
+07.08.2016, 11:45 - Prof. Oak: Kids, shall I design a smart poke-ball?
+```
 
-    Check python library [whatstk](https://lcsrg.me/whatstk).
+In this example, the header is `day.month.year, hour:minutes - username:`. However, in your case it may be something
+else like `[year/month/day hour:minutes:seconds] username:`
+
+
+#### I am an experimented coder. Where can I access to the code?
+
+Check python library [whatstk](https://lcsrg.me/whatstk).
 
 <br>
 
-**Not resolved? Ask your question [here](https://github.com/lucasrodes/whatstk-gui/issues)!**
+#### Not resolved? Ask your question [here](https://github.com/lucasrodes/whatstk-gui/issues)!
 
 <br>
 

@@ -27,7 +27,7 @@ Use **WhatsTK** to analyse your WhatsApp chats. Currently it is **only available
 ## How do I use it?
 
 1. Start the program (double click on the Application).
-2. Load your chat as a text file (see [FAQs](#FAQs) section on how to obtain it).
+2. Load your chat as a text file (see [FAQs](#faqs) section on how to obtain it).
 3. Try `Auto Run`. If it does not work, check Manual Run options.
 
 <br>

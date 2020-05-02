@@ -33,6 +33,7 @@ ECHO ">> 4 CREATE DMG"
 # [ -f ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg ] && rm ./${DEBUG_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg
 # tar -zcvf test.tar.gz ${RELEASE_PATH}/${APP_NAME}.app/ ${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}.dmg
 [ -f ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}-Installer.dmg ] && rm -f ./${RELEASE_PATH}/${APP_NAME}-${VERSION}-${OS_NAME}-Installer.dmg
+
 create-dmg \
     --volname ${APP_NAME}-${VERSION}-${OS_NAME}-Installer \
     --window-pos 200 120 \

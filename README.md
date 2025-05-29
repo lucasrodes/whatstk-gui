@@ -1,3 +1,5 @@
+**⚠️ Refer to new demo: https://whatstk.streamlit.app/, or see the [GitHub project](https://github.com/lucasrodes/whatstk-webapp)**
+
 ## Generate release
 
 Run
